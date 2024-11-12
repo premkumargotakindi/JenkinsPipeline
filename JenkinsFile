@@ -1,0 +1,28 @@
+pipeline
+{
+agent any
+{
+stages
+{
+stage('Build')
+{
+step
+{
+echo "Building a project"
+}
+}
+stage('Test')
+{
+step{
+echo "Testing a project"
+}
+}
+stage('Deploy')
+{
+step{
+echo "Deploying a project"
+}
+}
+}
+}
+}
