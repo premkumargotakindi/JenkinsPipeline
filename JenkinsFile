@@ -5,20 +5,20 @@ stages
 {
 stage('Build')
 {
-step
+steps
 {
 echo "Building a project"
 }
 }
 stage('Test')
 {
-step{
+steps{
 echo "Testing a project"
 }
 }
 stage('Deploy')
 {
-step{
+steps{
 echo "Deploying a project"
 }
 }
